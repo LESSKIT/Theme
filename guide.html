@@ -1,0 +1,125 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Set up and customize your Syrene Shopify theme. Explore the user guide, section reference, and support resources."><meta name="color-scheme" content="light"><title>The Syrene user guide — Syrene</title><link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css"><script src="./site.js" defer></script></head><body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="./index.html" aria-label="Syrene support home">Syrene<span aria-hidden="true">✳</span><small>THEME SUPPORT</small></a><nav aria-label="Main navigation"><a href="./index.html" >Overview</a><a href="./guide.html" aria-current="page">User guide</a><a href="./modules.html" >Modules</a><a href="./support.html" >Contact support</a></nav></header><main id="main"><div class="page-heading"><p class="eyebrow">DOCUMENTATION / VERSION 0.2.1</p><h1>The Syrene user guide</h1><p class="lede">A practical companion for setting up, customizing, and maintaining your store.</p></div><div class="docs-layout"><aside class="sidebar"><label for="topic-search">Find a topic</label><input id="topic-search" type="search" placeholder="Search this guide…" autocomplete="off"><nav aria-label="On this page" id="topic-list"><a href="#topic-1">Contents</a><a href="#chapter-1">1. Install and prepare your store</a><a href="#chapter-2">2. Add, reuse, hide, and remove sections</a><a href="#chapter-3">3. Configure your brand and shared appearance</a><a href="#chapter-4">4. Header, navigation, and footer</a><a href="#chapter-5">5. Build a useful home page</a><a href="#chapter-6">6. Products, cards, and quick look</a><a href="#chapter-7">7. Inventory, delivery, pickup, and gift cards</a><a href="#chapter-8">8. Build a product set and scene shopping</a><a href="#chapter-9">9. Collections, search, cart, and editorial pages</a><a href="#chapter-10">10. Localization, preview, updates, and launch</a><a href="#chapter-11">11. Troubleshooting</a><a href="#chapter-12">12. Contact Syrene support</a></nav><p id="search-status" role="status"></p><a class="sidebar-help" href="./support.html">Need a hand? Contact support ↗</a></aside><article class="doc-content">
+<p>Version 0.2.1 | Updated November 3, 2026</p>
+<p>Syrene is designed for multi-category, multi-brand stores. This guide explains how to configure the theme using Shopify and the theme editor. Labels can vary slightly with Shopify interface updates. The accompanying Module Reference lists every available section, its settings, blocks, defaults, and placement restrictions.</p>
+<h2 id="topic-1">Contents</h2>
+<ul>
+<li><a href="#chapter-1">1. Install and prepare your store</a></li>
+<li><a href="#chapter-2">2. Add, reuse, hide, and remove sections</a></li>
+<li><a href="#chapter-3">3. Configure your brand and shared appearance</a></li>
+<li><a href="#chapter-4">4. Header, navigation, and footer</a></li>
+<li><a href="#chapter-5">5. Build a useful home page</a></li>
+<li><a href="#chapter-6">6. Products, cards, and quick look</a></li>
+<li><a href="#chapter-7">7. Inventory, delivery, pickup, and gift cards</a></li>
+<li><a href="#chapter-8">8. Build a product set and scene shopping</a></li>
+<li><a href="#chapter-9">9. Collections, search, cart, and editorial pages</a></li>
+<li><a href="#chapter-10">10. Localization, preview, updates, and launch</a></li>
+<li><a href="#chapter-11">11. Troubleshooting</a></li>
+<li><a href="#chapter-12">12. Contact Syrene support</a></li>
+</ul>
+<h2 id="chapter-1">1. Install and prepare your store</h2>
+<ol>
+<li>Open Online Store &gt; Themes. Add Syrene from the Theme Store, or upload your authorized theme ZIP using Import theme &gt; Upload zip file.</li>
+<li>Keep the theme unpublished while configuring it. Open Edit theme or Customize.</li>
+<li>Create your products, variants, prices, inventory, collections, menus, pages, and blog articles in Shopify.</li>
+<li>Make the products available to the Online Store sales channel. A product existing in the admin does not automatically make it available on the storefront.</li>
+<li>Configure payments, shipping, taxes, policies, and Markets in Shopify. The theme does not replace these services.</li>
+</ol>
+<p>Do not unzip the theme before uploading. Do not upload the documentation ZIP as a theme.</p>
+<h3>Why do I see placeholders when my files already exist in Shopify?</h3>
+<p>Store resources and theme settings are separate. Uploaded files are available to your store, but a new theme does not know which image belongs in each banner. Product sections also need a selected collection or product. A clean theme installation does not automatically inherit another theme's saved configuration.</p>
+<p>Select the image, collection, product, article, page, or menu in the corresponding section. Save and preview. Replace all instructional text before publishing. Demonstration images and store-specific resource selections are not included in the clean installation package.</p>
+<h2 id="chapter-2">2. Add, reuse, hide, and remove sections</h2>
+<p>Use the page selector at the top of the editor to open the appropriate template. Changes to a template affect every resource assigned to that template.</p>
+<ul>
+<li>Add: choose Add section in the appropriate template region, select a section, and connect its resources.</li>
+<li>Reorder: drag a section or block within the editor. Check the result on both desktop and mobile.</li>
+<li>Duplicate: where Shopify provides Duplicate, create an independent copy. Later changes to the original do not synchronize with its copy.</li>
+<li>Hide: use the visibility control. Hidden blocks still occupy section and block limits.</li>
+<li>Remove: select the section or block and choose Remove. Duplicate your theme before substantial restructuring.</li>
+<li>Reuse across pages: add a new instance to each eligible template and configure it separately. Resource content remains shared when both instances select the same product, collection, or page.</li>
+<li>Use a different layout for selected products or pages: create an alternate template, customize it, and assign it to the intended resources in Shopify.</li>
+</ul>
+<p>Global Theme settings control shared defaults. Section settings control one instance. Block settings control one repeatable item. Use Content, Layout, Style, and Behavior groups where available. An Inherit option uses the applicable shared setting.</p>
+<p>Header and footer groups are shared across normal storefront templates. Password and gift card layouts are separate. Fixed main sections, the cart drawer, and quick look are not ordinary addable sections.</p>
+<h3>Sections included but not initially configured</h3>
+<p>Apps, Custom Liquid, Custom section, FAQ, Featured product, Content tabs, and Video are available to add even when they are absent from a default template. The Announcement bar is included in the header group but may initially be hidden. Availability depends on the section's template and region restrictions.</p>
+<h3>Blocks and limits</h3>
+<p>Use Add block inside the selected section. The editor enforces the available block types and limits. Hiding a block does not free a slot. The Footer allows three blocks in total and at most one Newsletter block. Content tabs allow up to eight tabs, and Scene shopping allows up to six product hotspots. Use the Module Reference for the current schema limits.</p>
+<p>Custom section accepts reusable theme blocks such as Text and the Row/Column group presets. This does not mean every section accepts those theme blocks. Product and Featured product support compatible app blocks and Custom Liquid blocks. App output and subscription configuration depend on the relevant Shopify service or app.</p>
+<h2 id="chapter-3">3. Configure your brand and shared appearance</h2>
+<p>Open Theme settings to select desktop/mobile logos, favicon, Shopify font-picker fonts, colors, page width, corner styles, product-card options, cart behavior, motion, and display preferences. Use a color scheme for coordinated foreground/background colors where offered. Check contrast after changing colors, especially text over images, muted text, links, and keyboard focus.</p>
+<p>Section spacing supports None, Compact, Comfortable, and Spacious where available. None intentionally removes that section's vertical spacing. Choose consistent levels and review neighboring backgrounds. Content width and local layout settings are independent of spacing. Long titles remain visible; use real content while choosing columns and image ratios.</p>
+<h2 id="chapter-4">4. Header, navigation, and footer</h2>
+<ol>
+<li>Create menus in Shopify's Content &gt; Menus area, or the equivalent navigation area in your admin.</li>
+<li>Select the main menu in Header. Add nested menu items for multi-level navigation.</li>
+<li>Configure optional secondary, right-side, or catalog menus only when using the corresponding header layout. Defaults can point to the same menu; select your intended menus to avoid repetition.</li>
+<li>Add eligible mega-menu blocks and match their menu-item field to the actual menu title. Select their collections, images, links, or pages.</li>
+<li>Preview mobile navigation, search, account access, and the shopping bag.</li>
+<li>Configure Footer menus, store text, policies, social media URLs, localization, and payment icons.</li>
+</ol>
+<p>The customer-account component uses Shopify account settings. Follow on Shop and payment methods appear only when the store is eligible. Do not replace native branded payment or Shop button colors.</p>
+<h2 id="chapter-5">5. Build a useful home page</h2>
+<p>Start with navigation and category discovery, then add relevant product groups, merchandising content, and supporting information. You do not need every section on every page.</p>
+<ul>
+<li>Banner mosaic: add tiles, upload images, choose text placement and links, and check mobile crops. Use the image focal point to keep important subjects visible.</li>
+<li>Category discovery: select collections or configure the available category content. Choose a rail, guide, or directory layout as appropriate.</li>
+<li>Brand discovery: add brand blocks, images, headings, and destination links. It does not create brand collections automatically.</li>
+<li>Product selection: choose a collection or products, then select grid/rail presentation, columns, and card options.</li>
+<li>Campaign banner: add an image, heading, text, and a destination. Use accurate campaign terms.</li>
+<li>Content columns: add repeatable image/icon/text columns. Check uneven text lengths on mobile.</li>
+<li>Image with text / Rich text: select the layout, upload media where needed, and add content blocks in the required order.</li>
+<li>Verifiable information: provide your own accurate evidence, statistics, or testimonials. Replace example content and do not present sample figures as real business results.</li>
+<li>Journal and tutorials / Buying guide: connect the articles, pages, media, or products needed by the chosen blocks. A heading alone does not associate an article.</li>
+<li>Newsletter: customize the copy and connect your Shopify email-marketing workflow. Submission does not create an email campaign automatically.</li>
+<li>FAQ / Content tabs: add Question or Tab blocks and write content or select pages where supported.</li>
+<li>Video: choose Shopify-hosted video or a supported YouTube/Vimeo URL, then configure its cover and layout. Replace the default sample video before launch.</li>
+</ul>
+<p>See the Module Reference for every section's actual fields and availability.</p>
+<h2 id="chapter-6">6. Products, cards, and quick look</h2>
+<p>Maintain titles, descriptions, media, variants, prices, inventory, unit pricing, and selling plans in Shopify. The theme displays this data; it does not invent stock or calculate a separate authoritative price.</p>
+<p>In the Product template, add and arrange supported blocks such as Heading, Vendor, Price, Variant picker, Quantity, Buying controls, Description, Inventory status, Delivery and shipping, Pickup availability, Purchase options, Payment information, Complementary products, Rating, Share, Page popup, and Icon with text.</p>
+<p>Connect optional pages and dynamic sources where relevant. Empty optional content may not appear. Add compatible app blocks through the editor. Test app output in the actual store.</p>
+<p>Use product-card settings to choose the image ratio/fit, secondary images, badges, vendor, ratings, inventory, quick add, and quick look where available. Simple eligible products can use inline purchase controls. Products requiring more choices use the product page or quick-look flow. Always confirm options before purchasing.</p>
+<p>Product media can include images, Shopify videos, supported external videos, and 3D models. Upload real media and test playback, zoom, selected-variant images, and model viewing on applicable devices.</p>
+<p>Ratings use available review data. Missing rating data does not produce fabricated reviews. Related and complementary recommendations depend on Shopify's recommendation data and configuration; select manual fallback products where supported.</p>
+<h2 id="chapter-7">7. Inventory, delivery, pickup, and gift cards</h2>
+<p>Inventory information comes from Shopify variants. A preorder label is only a label for eligible available variants that permit continued selling; it does not create deposit or deferred-payment functionality. Configure those services separately if required.</p>
+<p>Optional delivery information can use supported variant/product fields such as custom.delivery_information and custom.shipping_information. Define and populate them in Shopify only if you need them. Missing fields are omitted; the theme does not generate delivery estimates.</p>
+<p>Configure local pickup in Shopify locations and fulfillment settings. The theme displays applicable availability when Shopify returns it. Tax and shipping-policy notices depend on store settings.</p>
+<h3>Gift card recipients</h3>
+<p>Enable the recipient option in the buying controls for gift card products. Customers can opt in, enter a recipient email, optional name/message, and optional send date. Email is required when opted in. The date picker allows today through the next 90 days in the customer's local timezone; leaving the date blank requests immediate delivery. Shopify processes delivery and validation.</p>
+<p>Returned values are restored after validation and option refreshes. Correct any error before submitting. Unchecking the recipient option excludes recipient properties from the purchase.</p>
+<p>An issued gift card displays its balance, text code, a 160px QR code, and an Apple Wallet link when available. QR generation requires JavaScript. The text redemption code remains available. The theme cannot guarantee delivery to a recipient's email inbox.</p>
+<h2 id="chapter-8">8. Build a product set and scene shopping</h2>
+<p>For Build a product set, select eligible candidate products and the minimum number of distinct products. Select a product's options and confirm them before adding the selection to the cart. Quantities must respect Shopify's minimum, increment, and maximum rules. This section adds separate Shopify cart lines; it does not automatically create bundle discounts.</p>
+<p>If there are fewer available products than the minimum, change the candidate list or minimum. If the result of a cart request cannot be confirmed, inspect the cart before retrying to avoid duplicate additions.</p>
+<p>For Scene shopping, upload the scene image, add product hotspots, select a product for each hotspot, and position them using the available controls. Review mobile placement. A plain image/text layout does not automatically become a hotspot layout.</p>
+<p>For Shoppable image feed, upload images and connect products using its blocks. Social profile links are destinations; the section does not automatically import social posts.</p>
+<h2 id="chapter-9">9. Collections, search, cart, and editorial pages</h2>
+<p>Choose the Collection template to configure its banner, description, sorting, filtering layout, columns, and page size. Filters use Shopify's available filter data and Search &amp; Discovery configuration. A filter with no applicable data may not appear.</p>
+<p>Search supports products, articles, and pages. Predictive results depend on Shopify search data and product availability. Test meaningful search terms, no-result states, and mobile controls.</p>
+<p>Configure cart notes, drawer/page behavior, recommendations, and accelerated checkout in Theme settings where offered. Price each is the final per-item price; Line total is the final amount for that line's quantity. Unit pricing, such as a price per 100g, is separate. Shopify's checkout determines final tax, shipping, and applicable discounts.</p>
+<p>Create pages in Shopify and select the appropriate template. The Contact form sends store-customer inquiries through Shopify's store contact workflow; it is not the Syrene developer-support service. Use Blog and Article templates for editorial content, publication information, and comments. Enable and moderate comments in Shopify when needed.</p>
+<h2 id="chapter-10">10. Localization, preview, updates, and launch</h2>
+<p>Configure countries, currencies, and languages in Shopify Markets and language settings. Selectors appear only when relevant choices exist. Theme translations do not translate your product descriptions or articles automatically.</p>
+<p>Preview a draft from its own theme card. Use Share preview / Copy link in the preview toolbar, and check the theme name shown there. The ordinary store domain may depend on a browser preview session. You do not need to publish to preview. Storefront access passwords and admin-account passwords are different; never send your admin password to theme support.</p>
+<p>Before publishing, check desktop and mobile layouts, menus, all resource selections, long content, missing images, sold-out products, unavailable combinations, gift cards, recommendations, cart edits, and checkout. Verify accessibility and performance using realistic content. Do not use empty sections to judge performance.</p>
+<p>Duplicate the theme before updating or editing code. Back up customizations and test the updated draft before publishing. Existing template assignments and store-specific settings may require review after migration. Do not overwrite new theme code with an old theme package merely to recover images.</p>
+<h2 id="chapter-11">11. Troubleshooting</h2>
+<ul>
+<li>Missing products: confirm Online Store availability, the section's product/collection selection, product eligibility, and stock state.</li>
+<li>Missing images: choose the image in this theme's section; another theme's selection is not inherited automatically.</li>
+<li>Missing section in Add section: check template/region restrictions and whether it is a fixed main section.</li>
+<li>Cannot add another block: hidden blocks still count; review total and per-type limits.</li>
+<li>No filters or recommendations: configure the corresponding Shopify data and relationships.</li>
+<li>All products changed after a layout edit: they share one template; create and assign an alternate template where appropriate.</li>
+<li>New template unavailable for assignment: check the templates available in the published theme and review assignments when switching themes.</li>
+<li>Set cannot be added: check distinct-product minimum, availability, confirmed options, quantities, and any pending/uncertain request.</li>
+<li>No subscription or accelerated payment option: check store eligibility, selling-plan setup, and section settings. Set-selection dialogs intentionally hide direct accelerated checkout.</li>
+</ul>
+<h2 id="chapter-12">12. Contact Syrene support</h2>
+<p>Email: wukaicheng@iadlink.com</p>
+<p>Include your store URL, theme version, affected page, section/block name, reproduction steps, expected result, device/browser, and relevant screenshots. Explain whether custom code or third-party apps are involved. Do not send passwords, payment details, or customer personal information.</p>
+<p>Support covers questions about built-in Syrene features and theme defects. Shopify account, billing, payment services, and third-party apps are handled by the corresponding provider. Custom development, app integration, or manual migration services require a separate agreement and are not included in the theme price.</p>
+<p>If you edit code, duplicate the theme first and test a draft. Customizations can affect upgrades and compatibility; consider a Shopify Partner for coding assistance. A public support-form URL will be added when that service is available.</p><div class="doc-end"><h2>Still need a hand?</h2><p>Share the details with our support team.</p><a class="button" href="./support.html">Contact support ↗</a></div></article></div></main><footer><a class="brand" href="./index.html">Syrene<span aria-hidden="true">✳</span></a><p>Useful guidance. A better store.</p><div><a href="./privacy.html">Privacy</a><a href="mailto:wukaicheng@iadlink.com">Email support ↗</a></div><small>Syrene theme · Documentation for version 0.2.1</small></footer></body></html>

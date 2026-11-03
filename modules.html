@@ -1,0 +1,1489 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Set up and customize your Syrene Shopify theme. Explore the user guide, section reference, and support resources."><meta name="color-scheme" content="light"><title>Your building blocks — Syrene</title><link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css"><script src="./site.js" defer></script></head><body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="./index.html" aria-label="Syrene support home">Syrene<span aria-hidden="true">✳</span><small>THEME SUPPORT</small></a><nav aria-label="Main navigation"><a href="./index.html" >Overview</a><a href="./guide.html" >User guide</a><a href="./modules.html" aria-current="page">Modules</a><a href="./support.html" >Contact support</a></nav></header><main id="main"><div class="page-heading"><p class="eyebrow">DOCUMENTATION / VERSION 0.2.1</p><h1>Your building blocks</h1><p class="lede">Explore every configurable section, its settings, and available blocks.</p></div><div class="docs-layout"><aside class="sidebar"><label for="topic-search">Find a topic</label><input id="topic-search" type="search" placeholder="Search this guide…" autocomplete="off"><nav aria-label="On this page" id="topic-list"><a href="#topic-1">Not found</a><a href="#topic-2">Announcement bar</a><a href="#topic-3">Apps</a><a href="#topic-4">Article</a><a href="#topic-5">Blog</a><a href="#topic-6">Cart drawer</a><a href="#topic-7">Cart</a><a href="#topic-8">Collection</a><a href="#topic-9">Collections grid</a><a href="#topic-10">Contact form</a><a href="#topic-11">Custom Liquid</a><a href="#topic-12">Custom section</a><a href="#topic-13">Footer</a><a href="#topic-14">Header</a><a href="#topic-15">Brand discovery</a><a href="#topic-16">Build a product set</a><a href="#topic-17">Category discovery</a><a href="#topic-18">Content columns</a><a href="#topic-19">Flexible content</a><a href="#topic-20">Journal and tutorials</a><a href="#topic-21">Verifiable information</a><a href="#topic-22">FAQ</a><a href="#topic-23">Featured product</a><a href="#topic-24">Buying guide</a><a href="#topic-25">Banner mosaic</a><a href="#topic-26">Newsletter</a><a href="#topic-27">Shoppable image feed</a><a href="#topic-28">Product selection</a><a href="#topic-29">Campaign banner</a><a href="#topic-30">Quick look</a><a href="#topic-31">Product recommendations</a><a href="#topic-32">Scene shopping</a><a href="#topic-33">Content tabs</a><a href="#topic-34">Video</a><a href="#topic-35">Page</a><a href="#topic-36">Password</a><a href="#topic-37">Product</a><a href="#topic-38">Search</a></nav><p id="search-status" role="status"></p><a class="sidebar-help" href="./support.html">Need a hand? Contact support ↗</a></aside><article class="doc-content">
+<p>Version 0.2.1 | November 3, 2026</p>
+<p>Sections without an Add section preset are fixed sections or response templates. Availability depends on template and region restrictions. Duplicate instances are independent; hidden blocks still count toward limits. Empty resource defaults mean you must select your own store content.</p>
+<h2 id="topic-1">Not found</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Text</td><td>textarea</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show search</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-2">Announcement bar</h2>
+<p>Addable section. Presets: Announcement bar</p>
+<p>Available in: {"groups":["header"]}.</p>
+<p>Maximum blocks: 8.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Layout</td><td>select</td><td>row</td><td>Row, Stack, One announcement at a time, Continuous scrolling</td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Auto-rotate announcements</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Time between announcements</td><td>range</td><td>5</td><td></td></tr>
+<tr><td>Scroll cycle duration</td><td>range</td><td>30</td><td></td></tr>
+<tr><td>Allow visitors to dismiss</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Vertical padding</td><td>range</td><td>9</td><td></td></tr>
+</tbody></table></div>
+<h3>Notice</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-3">Apps</h2>
+<p>Addable section. Presets: Apps</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>comfortable</td><td>None, Compact, Comfortable, Spacious</td></tr>
+</tbody></table></div>
+<h3>Compatible app block</h3>
+<h2 id="topic-4">Article</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Fallback products</td><td>product_list</td><td>Select or enter your own content</td><td>Article metafield custom.related_products (list of products) takes priority. This selection is used only when the article has no related products.</td></tr>
+<tr><td>Heading</td><td>text</td><td>Products in this story</td><td></td></tr>
+<tr><td>Show products in this story</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show featured image</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show author</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show publication date</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show topic links</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-5">Blog</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Articles per page</td><td>range</td><td>9</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>3</td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show topic links</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show publication date</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show excerpt</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show article image</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show author</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-6">Cart drawer</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Cart recommendations</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show recommendations</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>You may also like</td><td></td></tr>
+<tr><td>Recommendation source</td><td>select</td><td>complementary</td><td>Complementary products, Related products, Selected products</td></tr>
+<tr><td>Selected products / fallback</td><td>product_list</td><td>Select or enter your own content</td><td>Used directly for Selected products, or when Shopify returns no eligible recommendations. Products already in the cart are excluded.</td></tr>
+<tr><td>Product count</td><td>range</td><td>3</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-7">Cart</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-8">Collection</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Results per page</td><td>range</td><td>24</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>4</td><td></td></tr>
+<tr><td>Mobile columns</td><td>select</td><td>2</td><td>One, Two</td></tr>
+<tr><td>Product grid gap</td><td>range</td><td>22</td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Customize cards in this section</td><td>checkbox</td><td>false</td><td>Off: use Theme settings → Product cards. On: customize cards in this section.</td></tr>
+<tr><td>Image ratio</td><td>select</td><td>1</td><td>Square, Portrait, Landscape</td></tr>
+<tr><td>Image fit</td><td>select</td><td>contain</td><td>Show entire image, Fill image area</td></tr>
+<tr><td>Show vendor</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show second image on hover or focus</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show purchase action</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show product rating</td><td>checkbox</td><td>false</td><td>Uses standard review rating and count metafields supplied by your review app. Hidden when no rating is available.</td></tr>
+<tr><td>Show variant selector</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show collection image</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show collection description</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show filters</td><td>checkbox</td><td>true</td><td>Filters use your store’s Search &amp; Discovery configuration and product data.</td></tr>
+<tr><td>Filter presentation</td><td>select</td><td>inline</td><td>Inline filters, Centered dialog</td></tr>
+<tr><td>Float filter and category controls</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Category shortcuts</td><td>collection_list</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Show sorting</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Quick look</td><td>select</td><td>inherit</td><td>Use theme setting, Show, Hide</td></tr>
+<tr><td>Product labels</td><td>select</td><td>inherit</td><td>Use theme setting, Show, Hide</td></tr>
+<tr><td>Secondary product image effect</td><td>select</td><td>inherit</td><td>Use theme default, Off, Crossfade, Image reveal</td></tr>
+<tr><td>Product card actions</td><td>select</td><td>inherit</td><td>Use theme default, Below product information, Over product image</td></tr>
+<tr><td>Reveal product options and actions</td><td>select</td><td>inherit</td><td>Use theme default, Off, On hover and keyboard focus</td></tr>
+</tbody></table></div>
+<h2 id="topic-9">Collections grid</h2>
+<p>Addable section. Presets: Collections grid</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Grid item width</td><td>select</td><td>collections--full</td><td>Small, Large</td></tr>
+<tr><td>Grid spacing</td><td>range</td><td>10</td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-10">Contact form</h2>
+<p>Addable section. Presets: Contact form</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Show page content</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show page title</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-11">Custom Liquid</h2>
+<p>Addable section. Presets: Custom Liquid</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Custom Liquid</td><td>liquid</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-12">Custom section</h2>
+<p>Addable section. Presets: Custom section</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Background</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h3>undefined</h3>
+<h2 id="topic-13">Footer</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<p>Maximum blocks: 3.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Footer brand text is set in Theme settings → Logo and brand. Edit the footer description below. Social profile URLs are set in Theme settings → Social media links.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Footer introduction</td><td>textarea</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Main menu</td><td>link_list</td><td>footer</td><td></td></tr>
+<tr><td>About page</td><td>page</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>About link label</td><td>text</td><td>About us</td><td></td></tr>
+<tr><td>Blog</td><td>blog</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Blog link label</td><td>text</td><td>Journal</td><td></td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show payment icons</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show Follow on Shop</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show country selector</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show language selector</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show social links</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show policy links</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show back to top</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Brand logo width</td><td>range</td><td>180</td><td></td></tr>
+<tr><td>Show brand tagline</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Main menu</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Main menu</td><td>link_list</td><td>footer</td><td></td></tr>
+</tbody></table></div>
+<h3>Text</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Share helpful information about your products or store.</td><td></td></tr>
+</tbody></table></div>
+<h3>Newsletter</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Text</td><td>textarea</td><td>Share helpful information about your products or store.</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-14">Header</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Logo</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Upload or replace logo images in Theme settings → Logo and brand. Adjust their placement and width below.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Logo width</td><td>range</td><td>180</td><td></td></tr>
+<tr><td>Mobile logo width</td><td>range</td><td>120</td><td></td></tr>
+<tr><td>Menus</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Main menu</td><td>link_list</td><td>main-menu</td><td></td></tr>
+<tr><td>Right menu</td><td>link_list</td><td>main-menu</td><td>Used to the right of the logo in the two-menu layout. It also appears in the mobile drawer.</td></tr>
+<tr><td>Customer account menu</td><td>link_list</td><td>main-menu</td><td></td></tr>
+<tr><td>Secondary menu</td><td>link_list</td><td>main-menu</td><td></td></tr>
+<tr><td>Highlight menu link</td><td>url</td><td>Select or enter your own content</td><td>Select the same destination as a menu item to highlight it.</td></tr>
+<tr><td>Catalog menu</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Category behavior</td><td>select</td><td>navigation</td><td>Navigate to collections, Filter search by category or brand</td></tr>
+<tr><td>Catalog menu</td><td>link_list</td><td>main-menu</td><td>Optional independent menu. Leave empty to hide the catalog button.</td></tr>
+<tr><td>Button label</td><td>text</td><td>Shop departments</td><td></td></tr>
+<tr><td>Include catalog menu in mobile drawer</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Department menu position</td><td>select</td><td>beside_search</td><td>Beside search, Inside search</td></tr>
+<tr><td>Department button style</td><td>select</td><td>solid</td><td>Solid, Outline, Subtle, Inset, Text</td></tr>
+<tr><td>Department button corners</td><td>select</td><td>inherit</td><td>Use theme setting, Pill, Slightly rounded</td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Header composition</td><td>select</td><td>existing</td><td>Custom logo and navigation positions, Logo left, catalog and wide search, Logo center, search left, Navigation left, logo center, Menus on both sides of logo</td></tr>
+<tr><td>Logo position</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Mobile logo position</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Desktop navigation position</td><td>select</td><td>below</td><td>Separate row, Logo row</td></tr>
+<tr><td>Utilities position</td><td>select</td><td>below</td><td>Above main header, Below main header, Main header</td></tr>
+<tr><td>Content width</td><td>select</td><td>standard</td><td>Page width, Full width</td></tr>
+<tr><td>Vertical padding</td><td>range</td><td>24</td><td></td></tr>
+<tr><td>Menu alignment</td><td>select</td><td>inherit</td><td>Follow logo position, Left, Center, Spread</td></tr>
+<tr><td>Top information bar</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Text size</td><td>range</td><td>12</td><td></td></tr>
+<tr><td>Vertical padding</td><td>range</td><td>8</td><td></td></tr>
+<tr><td>Mobile information bar</td><td>select</td><td>all</td><td>Show messages and utilities, Show messages only, Hide</td></tr>
+<tr><td>Search</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show search</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Search field width</td><td>select</td><td>fill</td><td>Fill available space, Compact</td></tr>
+<tr><td>Mobile search</td><td>select</td><td>inherit</td><td>Follow search field setting, Search icon linking to search page, Full search field</td></tr>
+<tr><td>Colors</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Header background</td><td>color</td><td>#FFFFFF</td><td></td></tr>
+<tr><td>Header text</td><td>color</td><td>#1A1A1A</td><td></td></tr>
+<tr><td>Top bar color scheme</td><td>color_scheme</td><td>Select or enter your own content</td><td>Optional region override. Leave empty to inherit surrounding colors.</td></tr>
+<tr><td>Navigation color scheme</td><td>color_scheme</td><td>Select or enter your own content</td><td>Optional region override. Leave empty to inherit surrounding colors.</td></tr>
+<tr><td>Search field color scheme</td><td>color_scheme</td><td>Select or enter your own content</td><td>Optional region override. Leave empty to inherit surrounding colors.</td></tr>
+<tr><td>Dropdown menus color scheme</td><td>color_scheme</td><td>Select or enter your own content</td><td>Optional region override. Leave empty to inherit surrounding colors.</td></tr>
+<tr><td>Icons and labels</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Icon style</td><td>select</td><td>outline</td><td>Outline, Bold outline, Solid, Hugeicons rounded</td></tr>
+<tr><td>Cart icon</td><td>select</td><td>cart</td><td>Shopping cart, Shopping bag, Basket</td></tr>
+<tr><td>Cart icon background</td><td>select</td><td>plain</td><td>None, Circle with background color, Circle with button color</td></tr>
+<tr><td>Cart icon color scheme</td><td>color_scheme</td><td>Select or enter your own content</td><td>Optional region override. Leave empty to inherit surrounding colors.</td></tr>
+<tr><td>Desktop icon size</td><td>range</td><td>22</td><td></td></tr>
+<tr><td>Mobile icon size</td><td>range</td><td>22</td><td></td></tr>
+<tr><td>Desktop tools display</td><td>select</td><td>icons_text</td><td>Icons and text, Icons only, Text only</td></tr>
+<tr><td>Optional images replace the built-in icons and keep their original colors. Clear an image to restore the theme icon.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Search icon image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Account icon image</td><td>image_picker</td><td>Select or enter your own content</td><td>Shown when signed out. Shopify manages the signed-in customer avatar.</td></tr>
+<tr><td>Cart icon image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Mobile menu icon image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Menu style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Menu font</td><td>select</td><td>body</td><td>Body, Heading</td></tr>
+<tr><td>Uppercase menu labels</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show separator line</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Menu type</td><td>select</td><td>dropdown</td><td>Dropdown menu, Mega menu</td></tr>
+<tr><td>Desktop menu opens on</td><td>select</td><td>click</td><td>Click, Hover</td></tr>
+<tr><td>Sticky header</td><td>select</td><td>on_scroll_up</td><td>None, Always, On scroll up</td></tr>
+<tr><td>Show cart total on desktop</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show country selector</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show language selector</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Service message</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Text</td><td>richtext</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Position</td><td>select</td><td>below</td><td>Top bar, Main header, Beside navigation, Below header</td></tr>
+</tbody></table></div>
+<h3>Button</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Button label</td><td>text</td><td>Contact us</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Position</td><td>select</td><td>below</td><td>Top bar, Main header, Beside navigation, Below header</td></tr>
+</tbody></table></div>
+<h3>Brand evidence image</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Evidence details link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Position</td><td>select</td><td>below</td><td>Top bar, Main header, Beside navigation, Below header</td></tr>
+<tr><td>Image width</td><td>range</td><td>140</td><td></td></tr>
+</tbody></table></div>
+<h3>Social media links</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Set your social profile URLs in Theme settings → Social media links.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Position</td><td>select</td><td>below</td><td>Top bar, Main header, Beside navigation, Below header</td></tr>
+</tbody></table></div>
+<h3>Mega menu</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Top-level menu item</td><td>text</td><td>Select or enter your own content</td><td>Enter the exact title from your main or right menu. Matching ignores case and surrounding spaces. Add one block per menu item; the first match is used.</td></tr>
+<tr><td>Menu links</td><td>link_list</td><td>main-menu</td><td>Optional. Uses the matched item’s sub-menu when not selected.</td></tr>
+<tr><td>Featured collections</td><td>collection_list</td><td>Select or enter your own content</td><td>Category browser: used when no menu links are available, with up to six products per collection. Editorial: optional collection links. Bento grid: select four collections for one large image on the left, two small images above a wide image on the right. Images use collection covers or their first product images.</td></tr>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td>Optional. Falls back to the matched menu item’s destination.</td></tr>
+<tr><td>Button label</td><td>text</td><td>Explore the collection</td><td></td></tr>
+<tr><td>Images</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Image caption</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Image link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Second image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Second image caption</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Second image link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Menu layout</td><td>select</td><td>sidebar</td><td>Category browser with images, Editorial images and text, Bento collection grid</td></tr>
+</tbody></table></div>
+<h2 id="topic-15">Brand discovery</h2>
+<p>Addable section. Presets: Brand discovery</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<p>Maximum blocks: 12.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>BRANDS TO DISCOVER</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Presentation</td><td>select</td><td>tiles</td><td>Brand tiles, Logo wall</td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>4</td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h3>Brand</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-16">Build a product set</h2>
+<p>Addable section. Presets: Build a product set</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Selection heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Product selection</td><td>product_list</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Collection</td><td>collection</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Maximum items</td><td>range</td><td>6</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>3</td><td></td></tr>
+<tr><td>Mobile columns</td><td>select</td><td>2</td><td>1, 2</td></tr>
+<tr><td>Selection panel position</td><td>select</td><td>right</td><td>Left, Right</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Product image ratio</td><td>select</td><td>1</td><td>Square, Portrait</td></tr>
+<tr><td>Variant presentation</td><td>select</td><td>inherit</td><td>Use product card settings, Visual option dropdown, Visual option thumbnails</td></tr>
+<tr><td>Show vendor</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Minimum different products</td><td>range</td><td>3</td><td>This is a selection condition, not a discount. Choose at least this many available products. Quantity does not increase the different-product count.</td></tr>
+<tr><td>Keep selection panel visible on desktop</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-17">Category discovery</h2>
+<p>Addable section. Presets: Category discovery, Category directory with feature</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<p>Maximum blocks: 12.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>THE SYRENE EDIT</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Feature eyebrow</td><td>text</td><td>FOR YOUR NEXT PROJECT</td><td></td></tr>
+<tr><td>Feature heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Feature button label</td><td>text</td><td>Explore tools</td><td></td></tr>
+<tr><td>Feature link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Feature image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Featured collection (directory layout)</td><td>collection</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Feature description</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show navigation arrows</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>4</td><td></td></tr>
+<tr><td>Layout</td><td>select</td><td>rail</td><td>Need-based guide, Horizontal rail, Department directory</td></tr>
+<tr><td>Directory style</td><td>select</td><td>classic</td><td>Compact directory, Category cards and feature image</td></tr>
+<tr><td>Category columns</td><td>range</td><td>2</td><td></td></tr>
+<tr><td>Mobile columns</td><td>select</td><td>1</td><td>1, 2</td></tr>
+<tr><td>Feature width</td><td>select</td><td>1fr</td><td>Smaller image, Balanced, Larger image</td></tr>
+<tr><td>Feature position</td><td>select</td><td>right</td><td>Left, Right</td></tr>
+<tr><td>Mobile feature order</td><td>select</td><td>after</td><td>Before categories, After categories</td></tr>
+<tr><td>Feature text position</td><td>select</td><td>bottom</td><td>Top, Middle, Bottom</td></tr>
+<tr><td>Feature minimum height</td><td>range</td><td>360</td><td></td></tr>
+<tr><td>Guide card style</td><td>select</td><td>cards</td><td>Inset cards, Image beside text</td></tr>
+<tr><td>Image width</td><td>range</td><td>44</td><td></td></tr>
+<tr><td>Mobile image width</td><td>range</td><td>38</td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Category image fit</td><td>select</td><td>contain</td><td>Show whole image, Fill image area</td></tr>
+<tr><td>Directory corners</td><td>select</td><td>soft</td><td>Use theme corners, Small radius, Square</td></tr>
+<tr><td>Overlay color</td><td>color</td><td>#000000</td><td></td></tr>
+<tr><td>Overlay opacity</td><td>range</td><td>40</td><td></td></tr>
+<tr><td>Feature text color</td><td>color</td><td>#ffffff</td><td></td></tr>
+<tr><td>Image shape</td><td>select</td><td>original</td><td>Original, Square, Round</td></tr>
+<tr><td>Card corners</td><td>select</td><td>theme</td><td>Use theme corners, Small radius, Square</td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show all collections link</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Guide link label</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Guide link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h3>Category</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Collection</td><td>collection</td><td>Select or enter your own content</td><td>Uses the collection title, image and link unless you supply replacements in this block.</td></tr>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Fallback illustration</td><td>select</td><td>home</td><td>Electronics, Home and living, Clothing, Beauty and care, Food and drink, Sports and outdoors, Tools</td></tr>
+<tr><td>Shopping points</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Point 1</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Point 2</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Point 3</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Point icon</td><td>select</td><td>check</td><td>Checkmark, Leaf, Arrow, None</td></tr>
+</tbody></table></div>
+<h2 id="topic-18">Content columns</h2>
+<p>Addable section. Presets: Content columns</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>3</td><td></td></tr>
+<tr><td>Mobile columns</td><td>select</td><td>1</td><td>1, 2</td></tr>
+<tr><td>Text alignment</td><td>select</td><td>left</td><td>Left, Center, Right</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>comfortable</td><td>None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Card style</td><td>select</td><td>flat</td><td>Open, Card background</td></tr>
+<tr><td>Image ratio</td><td>select</td><td>1.5</td><td>Square, Landscape, Portrait</td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h3>Column</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Icon</td><td>select</td><td>none</td><td>None, Heart (Hugeicons), Guide book (Hugeicons), Package (Hugeicons), Customer support (Hugeicons), Leaf (Hugeicons), Home (Hugeicons), Check mark (Hugeicons)</td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Button label</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-19">Flexible content</h2>
+<p>Addable section. Presets: Image with text, Rich text</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Layout</td><td>select</td><td>split</td><td>Side by side, Stacked, Text only</td></tr>
+<tr><td>Image position</td><td>select</td><td>left</td><td>Left, Right</td></tr>
+<tr><td>Mobile image position</td><td>select</td><td>before</td><td>Before text, After text</td></tr>
+<tr><td>Text alignment</td><td>select</td><td>left</td><td>Left, Center, Right</td></tr>
+<tr><td>Text width (characters)</td><td>range</td><td>55</td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>comfortable</td><td>None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Image ratio</td><td>select</td><td>1.5</td><td>Original, Square, Landscape, Portrait</td></tr>
+<tr><td>Image fit</td><td>select</td><td>cover</td><td>Fill image area, Show entire image</td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h3>Eyebrow</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+</tbody></table></div>
+<h3>Heading</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Heading size</td><td>range</td><td>40</td><td></td></tr>
+</tbody></table></div>
+<h3>Text</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Text</td><td>richtext</td><td>Share helpful information about your products or store.</td><td></td></tr>
+</tbody></table></div>
+<h3>Button</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Button label</td><td>text</td><td>Explore the collection</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Presentation</td><td>select</td><td>button</td><td>Button, Text link</td></tr>
+</tbody></table></div>
+<h3>Compatible app block</h3>
+<h3>Custom Liquid</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Custom Liquid</td><td>liquid</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-20">Journal and tutorials</h2>
+<p>Addable section. Presets: Journal and tutorials</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<p>Maximum blocks: 6.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>THE SYRENE EDIT</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Blog</td><td>blog</td><td>Select or enter your own content</td><td>Select a blog to show its latest articles. Leave empty to use the story blocks below.</td></tr>
+<tr><td>Maximum items</td><td>range</td><td>4</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>4</td><td></td></tr>
+<tr><td>Layout</td><td>select</td><td>stories</td><td>Journal grid, Tutorial rail</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show article date</td><td>checkbox</td><td>true</td><td>Applies to articles loaded from the selected blog.</td></tr>
+<tr><td>Show article excerpt</td><td>checkbox</td><td>true</td><td>Applies to articles loaded from the selected blog.</td></tr>
+</tbody></table></div>
+<h3>Story</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Article</td><td>article</td><td>Select or enter your own content</td><td>The selected article supplies its title and link, plus its image when available. The block image is a fallback.</td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Supporting text</td><td>textarea</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Fallback illustration</td><td>select</td><td>home</td><td>Electronics, Home and living, Clothing, Beauty and care, Food and drink, Sports and outdoors, Tools</td></tr>
+</tbody></table></div>
+<h2 id="topic-21">Verifiable information</h2>
+<p>Addable section. Presets: Verifiable information</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<p>Maximum blocks: 12.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>SHOP WITH CONTEXT</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Content note</td><td>textarea</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Evidence layout</td><td>select</td><td>standard</td><td>Simple columns, Overview and cards</td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>3</td><td></td></tr>
+<tr><td>Mobile columns</td><td>select</td><td>1</td><td>1, 2</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h3>Evidence with source</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Supporting text</td><td>textarea</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Source or policy link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Link label</td><td>text</td><td>Read the details</td><td></td></tr>
+<tr><td>Icon</td><td>select</td><td>check</td><td>None, Check mark, Delivery truck (Hugeicons), Package (Hugeicons), Returns (Hugeicons), Shield (Hugeicons), Payment card (Hugeicons), Customer support (Hugeicons), Leaf (Hugeicons), Recycling (Hugeicons), Award (Hugeicons), Star (Hugeicons), Heart (Hugeicons), Guide book (Hugeicons), Information (Hugeicons), Help (Hugeicons), Location (Hugeicons), Lock (Hugeicons), Phone (Hugeicons), Home (Hugeicons), Check mark (Hugeicons)</td></tr>
+</tbody></table></div>
+<h3>Collection count</h3>
+<p>Maximum blocks of this type: 3.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Collection</td><td>collection</td><td>Select or enter your own content</td><td>Displays the current number of storefront products and links to the collection. This is not a sales or customer count.</td></tr>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Number color</td><td>color</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h3>Statistic</h3>
+<p>Maximum blocks of this type: 3.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Caption</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Value</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Number color</td><td>color</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h3>Testimonial</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Quote</td><td>textarea</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Rating</td><td>range</td><td>0</td><td>Set to 0 to hide stars. Use the attributed rating; identify illustrative content in the content note.</td></tr>
+<tr><td>Author</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Author detail</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Author image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Source or policy link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-22">FAQ</h2>
+<p>Addable section. Presets: FAQ</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Button label</td><td>text</td><td>Get in touch</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Layout</td><td>select</td><td>split</td><td>Side by side, Stacked</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>comfortable</td><td>None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Open first answer</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Open one answer at a time</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Question</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Question</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Answer</td><td>richtext</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Answer from page</td><td>page</td><td>Select or enter your own content</td><td>Optional. Page content replaces the text entered in this block.</td></tr>
+</tbody></table></div>
+<h2 id="topic-23">Featured product</h2>
+<p>Addable section. Presets: Featured product</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Product</td><td>product</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Media layout</td><td>select</td><td>grid</td><td>Follow theme default, Grid, Stacked, Horizontal gallery, Thumbnails</td></tr>
+<tr><td>Desktop thumbnail position</td><td>select</td><td>bottom</td><td>Below media, Beside media</td></tr>
+<tr><td>Media position</td><td>select</td><td>left</td><td>Left, Right</td></tr>
+<tr><td>Media column width</td><td>select</td><td>default</td><td>Balanced, Equal columns, Wide media, Narrow media</td></tr>
+<tr><td>Mobile media layout</td><td>select</td><td>inherit</td><td>Follow gallery layout, Swipe, Stacked, Thumbnails</td></tr>
+<tr><td>Mobile content order</td><td>select</td><td>media</td><td>Media first, Information first</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Space between media</td><td>range</td><td>16</td><td></td></tr>
+<tr><td>Space between information blocks</td><td>range</td><td>25</td><td></td></tr>
+<tr><td>Information alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Product image ratio</td><td>select</td><td>auto</td><td>Follow theme default, Original, Square, Portrait, Landscape</td></tr>
+<tr><td>Image fit</td><td>select</td><td>contain</td><td>Follow theme default, Fit, Fill</td></tr>
+<tr><td>Information panel</td><td>select</td><td>plain</td><td>Plain, Surface panel</td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show accelerated checkout</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Sticky product information</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Enable image zoom</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Loop hosted product videos</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Compatible app block</h3>
+<h3>Combined product summary</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Compatibility block. Each item is omitted here when its individual vendor, title, price or SKU block is present.</td><td>Group / note</td><td></td><td></td></tr>
+</tbody></table></div>
+<h3>Buying controls</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Add to cart button</td><td>select</td><td>solid</td><td>Follow theme default, Solid, Outline</td></tr>
+<tr><td>Button width</td><td>select</td><td>full</td><td>Full width, Fit content</td></tr>
+<tr><td>Show add to cart icon</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Accelerated checkout</td><td>select</td><td>inherit</td><td>Follow section setting, Show, Hide</td></tr>
+<tr><td>Show gift card recipient form</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show pickup when no pickup block is present</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Separate quantity, variant, purchase options, payment information and pickup blocks can be reordered. Without these blocks, their existing controls remain in the purchase area.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Pre-order button label</td><td>select</td><td>inherit</td><td>Use theme setting, Show on eligible backorders, Use Add to cart</td></tr>
+</tbody></table></div>
+<h3>Description</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Display</td><td>select</td><td>expanded</td><td>Expanded, Collapsible</td></tr>
+<tr><td>Collapsible heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Open initially</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Custom Liquid</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Custom Liquid</td><td>liquid</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h3>Heading</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Size</td><td>select</td><td>default</td><td>Theme default, Small, Large</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>inherit</td><td>Follow theme default, Left, Center</td></tr>
+</tbody></table></div>
+<h3>Vendor</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Link to products by this vendor</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>eyebrow</td><td>Body, Supporting text, Eyebrow</td></tr>
+</tbody></table></div>
+<h3>Price</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Size</td><td>select</td><td>default</td><td>Theme default, Small, Large</td></tr>
+<tr><td>Show sale badge</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>SKU</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Show label</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>muted</td><td>Body, Supporting text, Eyebrow</td></tr>
+</tbody></table></div>
+<h3>Variant picker</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Option style</td><td>select</td><td>buttons</td><td>Follow theme default, Buttons, Color and image swatches, Variant image thumbnails, Dropdown</td></tr>
+<tr><td>Options using variant thumbnails</td><td>text</td><td>Color, color, Finish</td><td>Comma-separated option names, such as Color, color, Finish. Matching ignores letter case. Other options keep their text labels; missing variant images also fall back to text.</td></tr>
+<tr><td>Show available color and image swatches</td><td>checkbox</td><td>true</td><td>Uses native Shopify option-value colors and images. Configure them in product category metafields and link the option; values without swatch data keep their text labels.</td></tr>
+<tr><td>Swatch shape</td><td>select</td><td>round</td><td>Follow theme default, Round, Square</td></tr>
+<tr><td>Show selected value beside option name</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Text</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Text</td><td>richtext</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>body</td><td>Body, Supporting text, Eyebrow</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>inherit</td><td>Follow theme default, Left, Center</td></tr>
+</tbody></table></div>
+<h3>Collapsible information</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Page</td><td>page</td><td>Select or enter your own content</td><td>Optional. Page content replaces the text entered in this block.</td></tr>
+<tr><td>Icon</td><td>select</td><td>none</td><td>None, Delivery truck (Hugeicons), Package (Hugeicons), Returns (Hugeicons), Shield (Hugeicons), Payment card (Hugeicons), Customer support (Hugeicons), Leaf (Hugeicons), Recycling (Hugeicons), Award (Hugeicons), Star (Hugeicons), Heart (Hugeicons), Guide book (Hugeicons), Information (Hugeicons), Help (Hugeicons), Location (Hugeicons), Lock (Hugeicons), Phone (Hugeicons), Home (Hugeicons), Check mark (Hugeicons)</td></tr>
+<tr><td>Open initially</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Quantity selector</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Uses Shopify quantity rules and connects to the purchase form. Add a Buy buttons block to enable purchasing.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Quantity selector style</td><td>select</td><td>inherit</td><td>Follow theme default, Number input, Minus and plus buttons</td></tr>
+<tr><td>Show label</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Pickup availability</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Open initially</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show pickup location addresses</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Inventory status</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Uses the selected variant’s real availability and tracked stock. Untracked stock never displays a quantity.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show tracked stock quantity</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show only low stock and unavailable items</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Low stock threshold</td><td>range</td><td>10</td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>muted</td><td>Body, Supporting text, Eyebrow</td></tr>
+<tr><td>Show incoming stock information</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Delivery and shipping</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Uses variant then product text metafields, with block and global message fallbacks. Shipping policy remains available if no custom page is selected.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show delivery information</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Delivery message</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Show shipping policy link</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Shipping message</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>muted</td><td>Body, Supporting text</td></tr>
+</tbody></table></div>
+<h3>Purchase options</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Only displayed for products with selling plans. Connects to the Buy buttons form; otherwise it appears there automatically.</td><td>Group / note</td><td></td><td></td></tr>
+</tbody></table></div>
+<h3>Payment and delivery information</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Displays Shopify installment terms when eligible, plus the selected policy information. Without this block, the purchase area retains its original information.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show applicable tax information</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show shipping policy link</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Complementary products</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Fallback products</td><td>product_list</td><td>Select or enter your own content</td><td>Shown when Shopify returns no eligible complementary products. The current product and unavailable products are excluded.</td></tr>
+<tr><td>Use Shopify Search &amp; Discovery to choose complementary products. Selected products below provide an optional fallback.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Pairs well with</td><td></td></tr>
+<tr><td>Product count</td><td>range</td><td>3</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Product display</td><td>select</td><td>list</td><td>Compact list, Grid</td></tr>
+<tr><td>Show add-to-cart actions</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Review rating</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Uses standard reviews.rating and reviews.rating_count product metafields supplied by a review app. Hidden when no rating is available.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show review count</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>muted</td><td>Body, Supporting text, Eyebrow</td></tr>
+</tbody></table></div>
+<h3>Share product</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Link label</td><td>text</td><td>Share product</td><td></td></tr>
+</tbody></table></div>
+<h3>Page popup</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Page</td><td>page</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Link label</td><td>text</td><td>Select or enter your own content</td><td>Leave blank to use the selected page title.</td></tr>
+</tbody></table></div>
+<h3>Icon with text</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Custom icon image</td><td>image_picker</td><td>Select or enter your own content</td><td>An uploaded image replaces the icon. Use the heading or text to explain its meaning.</td></tr>
+<tr><td>Icon</td><td>select</td><td>check</td><td>None, Check mark, Cart, Account, Delivery truck (Hugeicons), Package (Hugeicons), Returns (Hugeicons), Shield (Hugeicons), Payment card (Hugeicons), Customer support (Hugeicons), Leaf (Hugeicons), Recycling (Hugeicons), Award (Hugeicons), Star (Hugeicons), Heart (Hugeicons), Guide book (Hugeicons), Information (Hugeicons), Help (Hugeicons), Location (Hugeicons), Lock (Hugeicons), Phone (Hugeicons), Home (Hugeicons), Check mark (Hugeicons)</td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Layout</td><td>select</td><td>inline</td><td>Icon beside text, Stacked</td></tr>
+</tbody></table></div>
+<h2 id="topic-24">Buying guide</h2>
+<p>Addable section. Presets: Buying guide</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<p>Maximum blocks: 12.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>A LITTLE KNOW-HOW</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Guide layout</td><td>select</td><td>standard</td><td>Text columns, Cover story carousel</td></tr>
+<tr><td>Desktop card width</td><td>range</td><td>220</td><td></td></tr>
+<tr><td>Mobile card width</td><td>range</td><td>75</td><td></td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>3</td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h3>Need-based guide</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Supporting text</td><td>textarea</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Link label</td><td>text</td><td>Explore the guide</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Icon</td><td>select</td><td>none</td><td>None, Delivery truck (Hugeicons), Package (Hugeicons), Returns (Hugeicons), Shield (Hugeicons), Payment card (Hugeicons), Customer support (Hugeicons), Leaf (Hugeicons), Recycling (Hugeicons), Award (Hugeicons), Star (Hugeicons), Heart (Hugeicons), Guide book (Hugeicons), Information (Hugeicons), Help (Hugeicons), Location (Hugeicons), Lock (Hugeicons), Phone (Hugeicons), Home (Hugeicons), Check mark (Hugeicons)</td></tr>
+<tr><td>Cover image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Category label</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Creator credit</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Guide content</td><td>richtext</td><td>Select or enter your own content</td><td>Content opens in a reading dialog. Without content, the cover uses the configured link.</td></tr>
+</tbody></table></div>
+<h2 id="topic-25">Banner mosaic</h2>
+<p>Addable section. Presets: Banner mosaic</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<p>Maximum blocks: 12.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Composition</td><td>select</td><td>mosaic</td><td>Mosaic, Equal tiles, Stacked banners</td></tr>
+<tr><td>Mobile layout</td><td>select</td><td>1</td><td>Stacked cards, Featured card and two columns</td></tr>
+<tr><td>Top row minimum height</td><td>range</td><td>340</td><td></td></tr>
+<tr><td>Supporting card minimum height</td><td>range</td><td>240</td><td></td></tr>
+<tr><td>Mobile minimum height</td><td>range</td><td>280</td><td></td></tr>
+<tr><td>Card spacing</td><td>range</td><td>16</td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Image treatment</td><td>select</td><td>object</td><td>Cutout image, Full image</td></tr>
+<tr><td>Main heading</td><td>select</td><td>h1</td><td>Page heading, Section heading</td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Card corners</td><td>select</td><td>theme</td><td>Theme card corners, Soft, Square</td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Subtle image zoom on hover and focus</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Campaign tile</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Text</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Button label</td><td>text</td><td>Explore the edit</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Mobile image</td><td>image_picker</td><td>Select or enter your own content</td><td>Optional mobile image. Leave empty to use the main image.</td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Text position</td><td>select</td><td>top_start</td><td>Top left, Top right, Bottom left, Bottom right, Center</td></tr>
+<tr><td>Desktop text width</td><td>select</td><td>medium</td><td>Compact, Medium, Full card</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Color treatment</td><td>select</td><td>lilac</td><td>Lilac, Yellow, Peach, Mint, Blue</td></tr>
+<tr><td>Fallback illustration</td><td>select</td><td>audio</td><td>Electronics, Home and living, Beauty and care, Sports and outdoors, Clothing, Food and drink, Tools</td></tr>
+<tr><td>Heading size</td><td>select</td><td>auto</td><td>Follow card hierarchy, Small, Large</td></tr>
+<tr><td>Text color</td><td>color</td><td>Select or enter your own content</td><td>Leave empty to use dark text on cutouts and white text on full images.</td></tr>
+<tr><td>Overlay color</td><td>color</td><td>#000000</td><td></td></tr>
+<tr><td>Overlay strength</td><td>range</td><td>55</td><td></td></tr>
+<tr><td>Button style</td><td>select</td><td>light</td><td>Light, Primary, Outline</td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Clickable area</td><td>select</td><td>button</td><td>Button only, Entire card</td></tr>
+</tbody></table></div>
+<h2 id="topic-26">Newsletter</h2>
+<p>Addable section. Presets: Newsletter</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>THE GOOD STUFF, IN YOUR INBOX</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Layout</td><td>select</td><td>split</td><td>Side by side, Centered</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-27">Shoppable image feed</h2>
+<p>Addable section. Presets: Shoppable image feed</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<p>Maximum blocks: 12.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Shopping button label</td><td>text</td><td>Shop this edit</td><td></td></tr>
+<tr><td>Profile name</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Profile image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Profile link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Profile link label</td><td>text</td><td>Explore</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>3</td><td></td></tr>
+<tr><td>Mobile card width</td><td>range</td><td>80</td><td></td></tr>
+<tr><td>Card spacing</td><td>range</td><td>16</td><td></td></tr>
+<tr><td>Image ratio</td><td>select</td><td>4 / 5</td><td>Portrait, Square, Tall portrait</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Card corners</td><td>select</td><td>theme</td><td>Use theme corners, Small radius, Square</td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show navigation arrows</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Product panel</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Enable quick add</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show vendor</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Image and products</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Product selection</td><td>product_list</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Source link</td><td>url</td><td>Select or enter your own content</td><td>Optional link to the original post or story. This section does not automatically import social media.</td></tr>
+</tbody></table></div>
+<h2 id="topic-28">Product selection</h2>
+<p>Addable section. Presets: Product selection</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>THE SYRENE EDIT</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Collection</td><td>collection</td><td>Select or enter your own content</td><td>Used when no handpicked products are selected. Also supplies the View collection link.</td></tr>
+<tr><td>Product selection</td><td>product_list</td><td>Select or enter your own content</td><td>Optional handpicked products. When selected, these replace products from the collection.</td></tr>
+<tr><td>Maximum items</td><td>range</td><td>8</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>4</td><td></td></tr>
+<tr><td>Mobile columns</td><td>select</td><td>2</td><td>One, Two</td></tr>
+<tr><td>Layout</td><td>select</td><td>grid</td><td>Product grid, Horizontal rail</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Customize cards in this section</td><td>checkbox</td><td>false</td><td>Off: use Theme settings → Product cards. On: customize cards in this section.</td></tr>
+<tr><td>Image ratio</td><td>select</td><td>1</td><td>Square, Portrait, Landscape</td></tr>
+<tr><td>Image fit</td><td>select</td><td>contain</td><td>Show entire image, Fill image area</td></tr>
+<tr><td>Show vendor</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show second image on hover or focus</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show purchase action</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show product rating</td><td>checkbox</td><td>false</td><td>Uses standard review rating and count metafields supplied by your review app. Hidden when no rating is available.</td></tr>
+<tr><td>Show variant selector</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show collection link</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Quick look</td><td>select</td><td>inherit</td><td>Use theme setting, Show, Hide</td></tr>
+<tr><td>Product labels</td><td>select</td><td>inherit</td><td>Use theme setting, Show, Hide</td></tr>
+<tr><td>Secondary product image effect</td><td>select</td><td>inherit</td><td>Use theme default, Off, Crossfade, Image reveal</td></tr>
+<tr><td>Product card actions</td><td>select</td><td>inherit</td><td>Use theme default, Below product information, Over product image</td></tr>
+<tr><td>Grid presentation</td><td>select</td><td>standard</td><td>Standard, Editorial</td></tr>
+<tr><td>Show displayed product count</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-29">Campaign banner</h2>
+<p>Addable section. Presets: Campaign banner</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Section heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>THE WEEKEND EDIT</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Link label</td><td>text</td><td>Explore the edit</td><td></td></tr>
+<tr><td>Link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Promotion terms link</td><td>url</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Mobile image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Promotion layout</td><td>select</td><td>split</td><td>Image beside text, Image background banner</td></tr>
+<tr><td>Banner text alignment</td><td>select</td><td>center</td><td>Left, Center, Right</td></tr>
+<tr><td>Desktop minimum height</td><td>range</td><td>260</td><td></td></tr>
+<tr><td>Mobile text position</td><td>select</td><td>below</td><td>Below image, Over image</td></tr>
+<tr><td>Image position</td><td>select</td><td>right</td><td>Right, Left</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Banner heading size</td><td>range</td><td>36</td><td></td></tr>
+<tr><td>Banner background</td><td>color</td><td>#e8f6f4</td><td></td></tr>
+<tr><td>Banner corners</td><td>select</td><td>theme</td><td>Use theme corners, Small radius, Square</td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-30">Quick look</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Media layout</td><td>select</td><td>thumbnails</td><td>Follow theme default, Grid, Stacked, Horizontal gallery, Thumbnails</td></tr>
+<tr><td>Mobile media layout</td><td>select</td><td>thumbnails</td><td>Follow gallery layout, Swipe, Stacked, Thumbnails</td></tr>
+<tr><td>Product image ratio</td><td>select</td><td>auto</td><td>Follow theme default, Original, Square, Portrait, Landscape</td></tr>
+<tr><td>Image fit</td><td>select</td><td>contain</td><td>Follow theme default, Fit, Fill</td></tr>
+<tr><td>Show accelerated checkout</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Enable image zoom</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Buying controls</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Add to cart button</td><td>select</td><td>solid</td><td>Follow theme default, Solid, Outline</td></tr>
+<tr><td>Button width</td><td>select</td><td>full</td><td>Full width, Fit content</td></tr>
+<tr><td>Show add to cart icon</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Pre-order button label</td><td>select</td><td>inherit</td><td>Use theme setting, Show on eligible backorders, Use Add to cart</td></tr>
+<tr><td>Accelerated checkout</td><td>select</td><td>inherit</td><td>Follow section setting, Show, Hide</td></tr>
+<tr><td>Show gift card recipient form</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show pickup when no pickup block is present</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Separate quantity, variant, purchase options, payment information and pickup blocks can be reordered. Without these blocks, their existing controls remain in the purchase area.</td><td>Group / note</td><td></td><td></td></tr>
+</tbody></table></div>
+<h3>Description</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Display</td><td>select</td><td>expanded</td><td>Expanded, Collapsible</td></tr>
+<tr><td>Collapsible heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Open initially</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Heading</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Size</td><td>select</td><td>default</td><td>Theme default, Small, Large</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>inherit</td><td>Follow theme default, Left, Center</td></tr>
+</tbody></table></div>
+<h3>Vendor</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Link to products by this vendor</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>eyebrow</td><td>Body, Supporting text, Eyebrow</td></tr>
+</tbody></table></div>
+<h3>Price</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Size</td><td>select</td><td>default</td><td>Theme default, Small, Large</td></tr>
+<tr><td>Show sale badge</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Variant picker</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Option style</td><td>select</td><td>buttons</td><td>Follow theme default, Buttons, Color and image swatches, Variant image thumbnails, Dropdown</td></tr>
+<tr><td>Options using variant thumbnails</td><td>text</td><td>Color, color, Finish</td><td>Comma-separated option names, such as Color, color, Finish. Matching ignores letter case. Other options keep their text labels; missing variant images also fall back to text.</td></tr>
+<tr><td>Show available color and image swatches</td><td>checkbox</td><td>true</td><td>Uses native Shopify option-value colors and images. Configure them in product category metafields and link the option; values without swatch data keep their text labels.</td></tr>
+<tr><td>Swatch shape</td><td>select</td><td>round</td><td>Follow theme default, Round, Square</td></tr>
+<tr><td>Show selected value beside option name</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Quantity selector</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Uses Shopify quantity rules and connects to the purchase form. Add a Buy buttons block to enable purchasing.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Quantity selector style</td><td>select</td><td>inherit</td><td>Follow theme default, Number input, Minus and plus buttons</td></tr>
+<tr><td>Show label</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Pickup availability</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Open initially</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show pickup location addresses</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Complementary products</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use Shopify Search &amp; Discovery to choose complementary products. Selected products below provide an optional fallback.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Pairs well with</td><td></td></tr>
+<tr><td>Fallback products</td><td>product_list</td><td>Select or enter your own content</td><td>Shown when Shopify returns no eligible complementary products. The current product and unavailable products are excluded.</td></tr>
+<tr><td>Show add-to-cart actions</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Product count</td><td>range</td><td>3</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Product display</td><td>select</td><td>list</td><td>Compact list, Grid</td></tr>
+</tbody></table></div>
+<h3>Review rating</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Uses standard reviews.rating and reviews.rating_count product metafields supplied by a review app. Hidden when no rating is available.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show review count</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>muted</td><td>Body, Supporting text, Eyebrow</td></tr>
+</tbody></table></div>
+<h2 id="topic-31">Product recommendations</h2>
+<p>Addable section. Presets: Product recommendations</p>
+<p>Available in: {"templates":["product"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td>Leave empty to use the heading for the selected recommendation type.</td></tr>
+<tr><td>Product count</td><td>range</td><td>4</td><td></td></tr>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Recommendation type</td><td>select</td><td>related</td><td>Product recommendations, Complementary products</td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>4</td><td></td></tr>
+<tr><td>Mobile columns</td><td>select</td><td>2</td><td>One, Two</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Customize cards in this section</td><td>checkbox</td><td>false</td><td>Off: use Theme settings → Product cards. On: customize cards in this section.</td></tr>
+<tr><td>Image ratio</td><td>select</td><td>1</td><td>Square, Portrait, Landscape</td></tr>
+<tr><td>Image fit</td><td>select</td><td>contain</td><td>Show entire image, Fill image area</td></tr>
+<tr><td>Show vendor</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show second image on hover or focus</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show purchase action</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show product rating</td><td>checkbox</td><td>false</td><td>Uses standard review rating and count metafields supplied by your review app. Hidden when no rating is available.</td></tr>
+<tr><td>Show variant selector</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Quick look</td><td>select</td><td>inherit</td><td>Use theme setting, Show, Hide</td></tr>
+<tr><td>Product labels</td><td>select</td><td>inherit</td><td>Use theme setting, Show, Hide</td></tr>
+<tr><td>Secondary product image effect</td><td>select</td><td>inherit</td><td>Use theme default, Off, Crossfade, Image reveal</td></tr>
+<tr><td>Product card actions</td><td>select</td><td>inherit</td><td>Use theme default, Below product information, Over product image</td></tr>
+</tbody></table></div>
+<h2 id="topic-32">Scene shopping</h2>
+<p>Addable section. Presets: Scene shopping, Image hotspots and product slideshow</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<p>Maximum blocks: 6.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Auto-rotate products</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Rotation interval</td><td>range</td><td>5</td><td></td></tr>
+<tr><td>Scene layout</td><td>select</td><td>classic</td><td>Image and product grid, Image hotspots and product slideshow</td></tr>
+<tr><td>Quick look</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Product count</td><td>range</td><td>2</td><td></td></tr>
+<tr><td>Eyebrow</td><td>text</td><td>SHOP THE EVERYDAY</td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Supporting text</td><td>text</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Product selection</td><td>product_list</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Sidebar eyebrow</td><td>text</td><td>THE READING CORNER</td><td></td></tr>
+<tr><td>Sidebar heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Sidebar text</td><td>text</td><td>Start with a comfortable seat, add a warm light, and make room for your favorite things.</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Image position</td><td>select</td><td>left</td><td>Left, Right</td></tr>
+<tr><td>Caption position</td><td>select</td><td>overlay</td><td>On image, Below image</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h3>Product hotspot</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Product</td><td>product</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Horizontal position</td><td>range</td><td>50</td><td></td></tr>
+<tr><td>Vertical position</td><td>range</td><td>50</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-33">Content tabs</h2>
+<p>Addable section. Presets: Content tabs</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<p>Maximum blocks: 8.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Explore the details</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>left</td><td>Left, Center, Right</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>comfortable</td><td>None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+</tbody></table></div>
+<h3>Tab</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Details</td><td></td></tr>
+<tr><td>Page</td><td>page</td><td>Select or enter your own content</td><td>When the selected page has content, it replaces the text below.</td></tr>
+<tr><td>Text</td><td>richtext</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-34">Video</h2>
+<p>Addable section. Presets: Video</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Shopify-hosted video</td><td>video</td><td>Select or enter your own content</td><td>Upload or select a Shopify-hosted video. This takes priority over the external video URL.</td></tr>
+<tr><td>YouTube or Vimeo URL</td><td>video_url</td><td>https://www.youtube.com/watch?v=_9VUPq3SxOc</td><td>Used when no Shopify-hosted video is selected. Loaded when the customer chooses to play.</td></tr>
+<tr><td>External video cover</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Layout</td><td>select</td><td>stacked</td><td>Stacked, Side by side</td></tr>
+<tr><td>Media position</td><td>select</td><td>right</td><td>Left, Right</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>comfortable</td><td>None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Loop hosted video</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-35">Page</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show page title</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-36">Password</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Image</td><td>image_picker</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show newsletter signup</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Brand logo width</td><td>range</td><td>180</td><td></td></tr>
+<tr><td>Show brand tagline</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h2 id="topic-37">Product</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<p>Excluded regions/templates: {"groups":["header","footer"]}.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Media layout</td><td>select</td><td>grid</td><td>Follow theme default, Grid, Stacked, Horizontal gallery, Thumbnails</td></tr>
+<tr><td>Desktop thumbnail position</td><td>select</td><td>bottom</td><td>Below media, Beside media</td></tr>
+<tr><td>Media position</td><td>select</td><td>left</td><td>Left, Right</td></tr>
+<tr><td>Media column width</td><td>select</td><td>default</td><td>Balanced, Equal columns, Wide media, Narrow media</td></tr>
+<tr><td>Mobile media layout</td><td>select</td><td>inherit</td><td>Follow gallery layout, Swipe, Stacked, Thumbnails</td></tr>
+<tr><td>Mobile content order</td><td>select</td><td>media</td><td>Media first, Information first</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Space between media</td><td>range</td><td>16</td><td></td></tr>
+<tr><td>Space between information blocks</td><td>range</td><td>25</td><td></td></tr>
+<tr><td>Information alignment</td><td>select</td><td>left</td><td>Left, Center</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Product image ratio</td><td>select</td><td>auto</td><td>Follow theme default, Original, Square, Portrait, Landscape</td></tr>
+<tr><td>Image fit</td><td>select</td><td>contain</td><td>Follow theme default, Fit, Fill</td></tr>
+<tr><td>Information panel</td><td>select</td><td>plain</td><td>Plain, Surface panel</td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show accelerated checkout</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Sticky product information</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Enable image zoom</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Loop hosted product videos</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Compatible app block</h3>
+<h3>Combined product summary</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Compatibility block. Each item is omitted here when its individual vendor, title, price or SKU block is present.</td><td>Group / note</td><td></td><td></td></tr>
+</tbody></table></div>
+<h3>Buying controls</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Add to cart button</td><td>select</td><td>solid</td><td>Follow theme default, Solid, Outline</td></tr>
+<tr><td>Button width</td><td>select</td><td>full</td><td>Full width, Fit content</td></tr>
+<tr><td>Show add to cart icon</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Accelerated checkout</td><td>select</td><td>inherit</td><td>Follow section setting, Show, Hide</td></tr>
+<tr><td>Show gift card recipient form</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show pickup when no pickup block is present</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Separate quantity, variant, purchase options, payment information and pickup blocks can be reordered. Without these blocks, their existing controls remain in the purchase area.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Pre-order button label</td><td>select</td><td>inherit</td><td>Use theme setting, Show on eligible backorders, Use Add to cart</td></tr>
+</tbody></table></div>
+<h3>Description</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Display</td><td>select</td><td>expanded</td><td>Expanded, Collapsible</td></tr>
+<tr><td>Collapsible heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Open initially</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Custom Liquid</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Custom Liquid</td><td>liquid</td><td>Select or enter your own content</td><td></td></tr>
+</tbody></table></div>
+<h3>Heading</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Size</td><td>select</td><td>default</td><td>Theme default, Small, Large</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>inherit</td><td>Follow theme default, Left, Center</td></tr>
+</tbody></table></div>
+<h3>Vendor</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Link to products by this vendor</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>eyebrow</td><td>Body, Supporting text, Eyebrow</td></tr>
+</tbody></table></div>
+<h3>Price</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Size</td><td>select</td><td>default</td><td>Theme default, Small, Large</td></tr>
+<tr><td>Show sale badge</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>SKU</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Show label</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>muted</td><td>Body, Supporting text, Eyebrow</td></tr>
+</tbody></table></div>
+<h3>Variant picker</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Option style</td><td>select</td><td>buttons</td><td>Follow theme default, Buttons, Color and image swatches, Variant image thumbnails, Dropdown</td></tr>
+<tr><td>Options using variant thumbnails</td><td>text</td><td>Color, color, Finish</td><td>Comma-separated option names, such as Color, color, Finish. Matching ignores letter case. Other options keep their text labels; missing variant images also fall back to text.</td></tr>
+<tr><td>Show available color and image swatches</td><td>checkbox</td><td>true</td><td>Uses native Shopify option-value colors and images. Configure them in product category metafields and link the option; values without swatch data keep their text labels.</td></tr>
+<tr><td>Swatch shape</td><td>select</td><td>round</td><td>Follow theme default, Round, Square</td></tr>
+<tr><td>Show selected value beside option name</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Text</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Text</td><td>richtext</td><td>Share helpful information about your products or store.</td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>body</td><td>Body, Supporting text, Eyebrow</td></tr>
+<tr><td>Heading alignment</td><td>select</td><td>inherit</td><td>Follow theme default, Left, Center</td></tr>
+</tbody></table></div>
+<h3>Collapsible information</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Heading</td><td>text</td><td>Add a heading</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Page</td><td>page</td><td>Select or enter your own content</td><td>Optional. Page content replaces the text entered in this block.</td></tr>
+<tr><td>Icon</td><td>select</td><td>none</td><td>None, Delivery truck (Hugeicons), Package (Hugeicons), Returns (Hugeicons), Shield (Hugeicons), Payment card (Hugeicons), Customer support (Hugeicons), Leaf (Hugeicons), Recycling (Hugeicons), Award (Hugeicons), Star (Hugeicons), Heart (Hugeicons), Guide book (Hugeicons), Information (Hugeicons), Help (Hugeicons), Location (Hugeicons), Lock (Hugeicons), Phone (Hugeicons), Home (Hugeicons), Check mark (Hugeicons)</td></tr>
+<tr><td>Open initially</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Quantity selector</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Uses Shopify quantity rules and connects to the purchase form. Add a Buy buttons block to enable purchasing.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Quantity selector style</td><td>select</td><td>inherit</td><td>Follow theme default, Number input, Minus and plus buttons</td></tr>
+<tr><td>Show label</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Pickup availability</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Open initially</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show pickup location addresses</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Inventory status</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Uses the selected variant’s real availability and tracked stock. Untracked stock never displays a quantity.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show tracked stock quantity</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show only low stock and unavailable items</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Low stock threshold</td><td>range</td><td>10</td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>muted</td><td>Body, Supporting text, Eyebrow</td></tr>
+<tr><td>Show incoming stock information</td><td>checkbox</td><td>false</td><td></td></tr>
+</tbody></table></div>
+<h3>Delivery and shipping</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Uses variant then product text metafields, with block and global message fallbacks. Shipping policy remains available if no custom page is selected.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show delivery information</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Delivery message</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Show shipping policy link</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Shipping message</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>muted</td><td>Body, Supporting text</td></tr>
+</tbody></table></div>
+<h3>Purchase options</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Only displayed for products with selling plans. Connects to the Buy buttons form; otherwise it appears there automatically.</td><td>Group / note</td><td></td><td></td></tr>
+</tbody></table></div>
+<h3>Payment and delivery information</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Displays Shopify installment terms when eligible, plus the selected policy information. Without this block, the purchase area retains its original information.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show applicable tax information</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show shipping policy link</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Complementary products</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Fallback products</td><td>product_list</td><td>Select or enter your own content</td><td>Shown when Shopify returns no eligible complementary products. The current product and unavailable products are excluded.</td></tr>
+<tr><td>Use Shopify Search &amp; Discovery to choose complementary products. Selected products below provide an optional fallback.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Pairs well with</td><td></td></tr>
+<tr><td>Product count</td><td>range</td><td>3</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Product display</td><td>select</td><td>list</td><td>Compact list, Grid</td></tr>
+<tr><td>Show add-to-cart actions</td><td>checkbox</td><td>true</td><td></td></tr>
+</tbody></table></div>
+<h3>Review rating</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Uses standard reviews.rating and reviews.rating_count product metafields supplied by a review app. Hidden when no rating is available.</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show review count</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Text style</td><td>select</td><td>muted</td><td>Body, Supporting text, Eyebrow</td></tr>
+</tbody></table></div>
+<h3>Share product</h3>
+<p>Maximum blocks of this type: 1.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Link label</td><td>text</td><td>Share product</td><td></td></tr>
+</tbody></table></div>
+<h3>Page popup</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Page</td><td>page</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Link label</td><td>text</td><td>Select or enter your own content</td><td>Leave blank to use the selected page title.</td></tr>
+</tbody></table></div>
+<h3>Icon with text</h3>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Heading</td><td>text</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Text</td><td>richtext</td><td>Select or enter your own content</td><td></td></tr>
+<tr><td>Custom icon image</td><td>image_picker</td><td>Select or enter your own content</td><td>An uploaded image replaces the icon. Use the heading or text to explain its meaning.</td></tr>
+<tr><td>Icon</td><td>select</td><td>check</td><td>None, Check mark, Cart, Account, Delivery truck (Hugeicons), Package (Hugeicons), Returns (Hugeicons), Shield (Hugeicons), Payment card (Hugeicons), Customer support (Hugeicons), Leaf (Hugeicons), Recycling (Hugeicons), Award (Hugeicons), Star (Hugeicons), Heart (Hugeicons), Guide book (Hugeicons), Information (Hugeicons), Help (Hugeicons), Location (Hugeicons), Lock (Hugeicons), Phone (Hugeicons), Home (Hugeicons), Check mark (Hugeicons)</td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Layout</td><td>select</td><td>inline</td><td>Icon beside text, Stacked</td></tr>
+</tbody></table></div>
+<h2 id="topic-38">Search</h2>
+<p>Fixed section: configure it in its existing template or layout.</p>
+<div class="syrene-guide-table"><table><thead><tr><th scope="col">Setting</th><th scope="col">Type</th><th scope="col">Default</th><th scope="col">Choices / instructions</th></tr></thead><tbody>
+<tr><td>Content</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Results per page</td><td>range</td><td>24</td><td></td></tr>
+<tr><td>Layout</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Desktop columns</td><td>range</td><td>4</td><td></td></tr>
+<tr><td>Mobile columns</td><td>select</td><td>2</td><td>One, Two</td></tr>
+<tr><td>Content width</td><td>select</td><td>default</td><td>Theme width, Narrow, Wide</td></tr>
+<tr><td>Section spacing</td><td>select</td><td>default</td><td>Original spacing, None, Compact, Comfortable, Spacious</td></tr>
+<tr><td>Style</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Customize cards in this section</td><td>checkbox</td><td>false</td><td>Off: use Theme settings → Product cards. On: customize cards in this section.</td></tr>
+<tr><td>Image ratio</td><td>select</td><td>1</td><td>Square, Portrait, Landscape</td></tr>
+<tr><td>Image fit</td><td>select</td><td>contain</td><td>Show entire image, Fill image area</td></tr>
+<tr><td>Show vendor</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show second image on hover or focus</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Show purchase action</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Show product rating</td><td>checkbox</td><td>false</td><td>Uses standard review rating and count metafields supplied by your review app. Hidden when no rating is available.</td></tr>
+<tr><td>Show variant selector</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Use a color scheme</td><td>checkbox</td><td>false</td><td></td></tr>
+<tr><td>Color scheme</td><td>color_scheme</td><td>scheme-1</td><td></td></tr>
+<tr><td>Behavior</td><td>Group / note</td><td></td><td></td></tr>
+<tr><td>Show filters</td><td>checkbox</td><td>true</td><td>Filters use your store’s Search &amp; Discovery configuration and product data.</td></tr>
+<tr><td>Show sorting</td><td>checkbox</td><td>true</td><td></td></tr>
+<tr><td>Quick look</td><td>select</td><td>inherit</td><td>Use theme setting, Show, Hide</td></tr>
+<tr><td>Product labels</td><td>select</td><td>inherit</td><td>Use theme setting, Show, Hide</td></tr>
+<tr><td>Secondary product image effect</td><td>select</td><td>inherit</td><td>Use theme default, Off, Crossfade, Image reveal</td></tr>
+<tr><td>Product card actions</td><td>select</td><td>inherit</td><td>Use theme default, Below product information, Over product image</td></tr>
+</tbody></table></div><div class="doc-end"><h2>Still need a hand?</h2><p>Share the details with our support team.</p><a class="button" href="./support.html">Contact support ↗</a></div></article></div></main><footer><a class="brand" href="./index.html">Syrene<span aria-hidden="true">✳</span></a><p>Useful guidance. A better store.</p><div><a href="./privacy.html">Privacy</a><a href="mailto:wukaicheng@iadlink.com">Email support ↗</a></div><small>Syrene theme · Documentation for version 0.2.1</small></footer></body></html>
